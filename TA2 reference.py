@@ -29,8 +29,6 @@ target_shape = pymunk.Poly(target_body, vs_rect)
 target_body.position = 600,400
 space.add(target_body, target_shape)
 
-#remove bow
-
 arrow_body, arrow_shape = create_arrow()
 space.add(arrow_body, arrow_shape)
 
